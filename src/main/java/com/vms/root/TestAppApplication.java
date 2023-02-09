@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EntityScan(basePackages = {"Model"})
 @EnableJpaRepositories("Repository")
 @ComponentScan({"Controller","Service","Repository"})
-public class TestAppApplication extends SpringBootServletInitializer implements WebMvcConfigurer{
+public class TestAppApplication extends SpringBootServletInitializer{
 
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
